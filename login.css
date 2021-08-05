@@ -1,0 +1,56 @@
+#body1
+{
+    background-image: url(verticalmath.jpg);
+    
+}
+
+	.log1 , .log2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        
+	}
+
+.log1{
+    margin-top: 60px;;
+}
+
+#logbutton{
+    margin-top: 20px;
+}
+
+
+#first{
+    color: lightskyblue;
+    font-family: 'Tourney', cursive;
+}
+
+#second{
+    color:olivedrab;
+    font-family: 'Parisienne', cursive;
+}
+
+.looogin{
+    font-family: 'PT Serif', serif;
+}
+
+#score1, #score2{
+    font-size: 20px;
+}
+
+#pointinput{
+    border-radius: 30px;
+    padding: 5px;
+    background-color: lightblue;
+    border-top: lightgreen;
+    border-left: lightgreen;
+
+}
+
+#logbutton:hover{
+    transform:scale(1.2,1.2);
+    background-color: seagreen;
+}
+

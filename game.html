@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>The Splendiferous Math Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="game.css">
+
+
+
+</head>
+<body id="body2">
+
+<h3 id="name1"></h5><span id="score1"></span>
+<br>
+<h3 id="name2"></h5><span id="score2"></span>
+
+
+<div class="container">
+<center>
+    <h2 style="color:rgb(9, 33, 141); font-family: 'Parisienne', cursive; font-size:50px;"><b>Quizzer!</b></h2>
+    <h3>Your Friendly Math Quiz!</h3>
+    <h4 id="qturn"></h4>
+    <h4 id="aturn"></h4>
+    <div class="col-lg-6" id="qoutput"></div>
+    <br>
+    <br>
+    <label>Send Your Question: <b style="color:red" class="text-capitalize">Enter your first number and then your second! Then enter the operation!</b></label>
+    <li>Multiplication= "*"</li>
+    <li>Division="/"</li>
+    <li>Addition="+"</li>
+    <li>Subtraction="-"</li>
+    <br>
+    <hr>
+    <br>
+    <span>
+        <input id="number1" placeholder="Enter First Number" class="form-control input">
+        <br>
+        <input id="number2" placeholder="Enter Second Number" class="form-control input">
+        <br>
+        <input id="operation" placeholder="Enter Operation" class="form-control input">
+        <br>
+    </span>
+    <button style="width:30%" id="send" class="button" onclick="send()">SEND</button>
+    <br>
+    <br>
+    <br>
+</center>
+</div>
+
+<script src="game.js"></script>
+
+</body>

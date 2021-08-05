@@ -1,0 +1,56 @@
+.input{
+    background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+    margin-top: 20px;
+}
+
+#body2{
+    background: linear-gradient(to top, #00ccff -32%, #99ffcc 61%);
+	
+}
+
+#qoutput
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #0eb8b8;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#name1 , #name2
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#yesno{
+	color: green;
+	font-size: 40px;
+
+}
+
+#yesno1{
+   color: red;
+   font-size: 30px;
+}
+
+.button {
+	background-color: lightgreen;
+	border: none;
+	color: green;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+html{
+
+	scroll-behavior: smooth;
+}
+
